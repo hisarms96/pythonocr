@@ -1,0 +1,21 @@
+
+git init
+
+git config --global user.name "hisarms"
+git config --global user.email "hisarms@puts.ac.kr"
+git remote add origin git@github.com:hisarms96/pythonocr.git
+
+
+
+#install tesseract
+
+sudo apt update
+
+#sudo add-apt-repository ppa:alex-p/tesseract-ocr-devel
+
+sudo apt install -y tesseract-ocr
+
+sudo apt install python3-pip
+
+pip install pytesseract
+pip install pillow
