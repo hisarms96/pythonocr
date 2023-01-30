@@ -19,3 +19,7 @@ sudo apt install python3-pip
 
 pip install pytesseract
 pip install pillow
+
+
+sudo apt-get install tesseract-ocr-kor
+
